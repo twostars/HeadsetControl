@@ -48,6 +48,9 @@
 #include "devices/audeze_maxwell.hpp"
 #include "devices/audeze_maxwell2.hpp"
 
+// JBL devices
+#include "devices/jbl_quantum_610_wireless.hpp"
+
 // Lenovo devices
 #include "devices/lenovo_wireless_voip.hpp"
 
@@ -149,6 +152,9 @@ void DeviceRegistry::initialize()
         // Audeze devices
         registerDevice(std::make_unique<AudezeMaxwell>());
         registerDevice(std::make_unique<AudezeMaxwell2>());
+
+        // JBL devices
+        registerDevice(std::make_unique<JBLQuantum610Wireless>());
 
         // Lenovo devices
         registerDevice(std::make_unique<LenovoWirelessVoip>());

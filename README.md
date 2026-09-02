@@ -188,6 +188,7 @@ sudo udevadm control --reload-rules && sudo udevadm trigger
 | ROCCAT Elo 7.1 USB | All |   |   |   | x |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 | Audeze Maxwell | All | x | x |   |   | x | x | x |   | x |   |   |   |   | x |   |   | x |   |
 | Audeze Maxwell 2 | All | x | x |   |   | x | x | x |   | x |   |   |   |   |   |   |   | x |   |
+| JBL Quantum 610 Wireless | All | x | x |   | x |   | x |   |   |   |   |   |   |   |   |   |   |   |   |
 | Lenovo Wireless VoIP Headset | All | x | x |   |   | x |   | x | x | x |   |   | x |   | x |   |   |   |   |
 | Plantronics Voyager 8200 UC (BT600) | L/W | x | x |   | x |   |   | x |   |   |   |   |   |   | x |   |   |   |   |
 | Sony INZONE Buds | All |   | x |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
